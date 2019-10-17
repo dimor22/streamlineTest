@@ -326,6 +326,21 @@ footer p {
   .show-in-mobile {
     display: none;
   }
+  #page-hero {
+    background-image: url(img/bigScreenHeader.png);
+    background-color: black;
+    padding-top: 80px;
+    padding-bottom: 100px;
+    padding-top: 200px;
+  }
+  header {
+    background-color: #46413761;
+    padding: 50px 30px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
   header .top-menu {
     display: flex;
     position: relative;
