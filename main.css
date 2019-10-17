@@ -335,11 +335,14 @@ footer p {
   }
   header {
     background-color: #46413761;
-    padding: 50px 30px;
+    padding: 20px 30px;
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
+  }
+  header .flex {
+    align-items: center;
   }
   header .top-menu {
     display: flex;

@@ -1,21 +1,17 @@
-// GLOBAL VARIABLES
+
 $mobile-global-padding: 50px 30px;
 $desktop-max-width: 1170px;
 
-// - COLORS
 $accent-color: #464137;
 $content-accent-color: #B2E2E4;
 $titles-color: #2969b0;
 
-// - FONTS
 $primay-font: 'Source Sans Pro', sans-serif;
 $secondary-font: 'Playfair Display', serif;
 
-// - TEXT SIZES
 $big-content-text: 22px;
 $normal-content-text: 18px;
 
-// GLOBAL SETTINGS
 * {
   margin: 0;
   padding: 0;
@@ -339,8 +335,25 @@ footer {
   .show-in-mobile {
     display: none;
   }
+  #page-hero {
+    background-image: url(../../img/bigScreenHeader.png);
+    background-color: black;
+    padding-top: 80px;
+    padding-bottom: 100px;
+    padding-top: 200px;
+  }
 
   header {
+    background-color: #46413761;
+    padding: 20px 30px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+
+    .flex{
+      align-items: center;
+    }
 
     .top-menu {
       display: flex;
